@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: "jenkins"
-          image: "jenkinsci/jenkins:2.14"
+          image: "kiall/jenkins-master:latest"
 
           ports: 
             - containerPort: 8080
